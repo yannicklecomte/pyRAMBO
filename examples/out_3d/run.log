@@ -1,0 +1,38 @@
+2026-08-26 07:30:42 | INFO | Starting Bayesian Optimization
+2026-08-26 07:30:42 | INFO | Bounds: [(-2.0, 2.0), (-2.0, 2.0), (-2.0, 2.0)]
+2026-08-26 07:30:42 | INFO | BOConfig: BOConfig(n_init=10, n_iter=30, random_state=1234, export_every=None, init_sampling='uniform')
+2026-08-26 07:30:42 | INFO | GPConfig: GPConfig(l_c=0.3, sigma_f=1.0, sigma_y=0.1, jitter=1e-10, optimize_hyperparams=False, hpo_every=1, theta0_log=None, theta_bounds_log=None, rank1_threshold=0, n_hpo_restarts=3, kernel='rbf', normalize_y=False, ard=False, hpo_random_state=None)
+2026-08-26 07:30:42 | INFO | AcqConfig: AcqConfig(kind='EI', xi=0.01, kappa=2.0, maximize=False)
+2026-08-26 07:30:42 | INFO | OptimConfig: OptimConfig(method='random', global_method='random', optimizer='L-BFGS-B', n_raw_samples=2000, grid_n_per_dim=20, n_restarts=10, local_maxiter=200, n_candidates=1, batch_distance_scale=0.05)
+2026-08-26 07:30:42 | INFO | GradientRefinementConfig: GradientRefinementConfig(enabled=False, n_steps=50, learning_rate=0.01, beta1=0.9, beta2=0.999, epsilon=1e-08, distance_threshold=0.001, close_pair_policy='final')
+2026-08-26 07:30:42 | INFO | Random seed: 1234
+2026-08-26 07:30:42 | INFO | it=000 | x_next=[1.11678446 1.39548646 0.83397556] | y_next=2.670175e-01 | n_proposed=1 | n_added=1 | best_y=-5.443255e-01 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:42 | INFO | it=001 | x_next=[1.69110322 1.45157257 0.46254579] | y_next=-7.339055e-01 | n_proposed=1 | n_added=1 | best_y=-5.443255e-01 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:42 | INFO | it=002 | x_next=[1.79887981 1.49166232 0.82593825] | y_next=-5.398381e-01 | n_proposed=1 | n_added=1 | best_y=-7.339055e-01 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:42 | INFO | it=003 | x_next=[1.6024129  1.7652202  0.43693675] | y_next=-1.509984e+00 | n_proposed=1 | n_added=1 | best_y=-7.339055e-01 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:42 | INFO | it=004 | x_next=[1.63134628 1.90622113 0.4572052 ] | y_next=-1.312271e+00 | n_proposed=1 | n_added=1 | best_y=-1.509984e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=005 | x_next=[1.59302906 1.87341208 0.29252609] | y_next=-1.491534e+00 | n_proposed=1 | n_added=1 | best_y=-1.509984e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=006 | x_next=[1.2122229  1.89289071 0.45253437] | y_next=-1.043423e+00 | n_proposed=1 | n_added=1 | best_y=-1.509984e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=007 | x_next=[1.64162815 1.75640266 0.10076313] | y_next=-1.496326e+00 | n_proposed=1 | n_added=1 | best_y=-1.509984e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=008 | x_next=[1.39642845 1.77391001 0.32122257] | y_next=-1.425972e+00 | n_proposed=1 | n_added=1 | best_y=-1.509984e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=009 | x_next=[1.43531559 1.79514934 0.12370848] | y_next=-1.574981e+00 | n_proposed=1 | n_added=1 | best_y=-1.509984e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=010 | x_next=[1.46416819 1.57782946 0.10428581] | y_next=-1.102947e+00 | n_proposed=1 | n_added=1 | best_y=-1.574981e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=011 | x_next=[ 1.46230389  1.9265263  -0.3282119 ] | y_next=-1.475946e+00 | n_proposed=1 | n_added=1 | best_y=-1.574981e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=012 | x_next=[ 1.28911192  1.81392667 -0.10556008] | y_next=-1.026659e+00 | n_proposed=1 | n_added=1 | best_y=-1.574981e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=013 | x_next=[ 1.84625992  1.80596832 -0.44825659] | y_next=-1.104970e+00 | n_proposed=1 | n_added=1 | best_y=-1.574981e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=014 | x_next=[1.48463106 1.88346517 0.00647203] | y_next=-1.479185e+00 | n_proposed=1 | n_added=1 | best_y=-1.574981e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=015 | x_next=[ 1.54708461  1.73309478 -0.47515549] | y_next=-1.389605e+00 | n_proposed=1 | n_added=1 | best_y=-1.574981e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=016 | x_next=[ 1.6863067   1.87116117 -0.38308139] | y_next=-1.631789e+00 | n_proposed=1 | n_added=1 | best_y=-1.574981e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=017 | x_next=[ 1.60174303  1.64435299 -0.25536119] | y_next=-1.109540e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=018 | x_next=[ 1.34895603  1.7916475  -0.77896028] | y_next=-1.071192e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=019 | x_next=[ 1.71335753  1.88164156 -0.67171636] | y_next=-1.341653e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=020 | x_next=[ 1.37022444  1.9774257  -0.60518646] | y_next=-1.394385e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=021 | x_next=[0.84219653 1.87029868 0.26705622] | y_next=4.534694e-02 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=022 | x_next=[ 1.80005081  1.97557298 -0.15189511] | y_next=-1.181096e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=023 | x_next=[ 0.89338547  1.93598602 -0.61041725] | y_next=2.597749e-02 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=024 | x_next=[ 1.69976454  1.96447681 -0.57077662] | y_next=-1.260206e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=025 | x_next=[ 1.69903817  1.99923314 -1.08766263] | y_next=-1.093250e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=026 | x_next=[ 1.8487908   1.67514854 -0.95564136] | y_next=-7.541380e-01 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=027 | x_next=[1.35365132 1.99468757 0.73014508] | y_next=-1.131137e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=028 | x_next=[ 1.53135123  1.79895022 -1.11791073] | y_next=-1.315147e+00 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
+2026-08-26 07:30:43 | INFO | it=029 | x_next=[ 1.77177964  1.84522688 -1.46071663] | y_next=-8.690646e-01 | n_proposed=1 | n_added=1 | best_y=-1.631789e+00 | l_c=3.000e-01 | sigma_f=1.000e+00 | sigma_y=1.000e-01
