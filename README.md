@@ -2,6 +2,9 @@
 
 **Bayesian optimization for expensive black-box functions, in plain NumPy and SciPy.**
 
+
+![pyRAMBO logo](logo_pyRAMBO.png)
+
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
